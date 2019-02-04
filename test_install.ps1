@@ -5,8 +5,8 @@ virtualenv venv
 venv\Scripts\activate
 python -m pip install --upgrade "pip==18.1"
 git clone https://github.com/plus3it/watchmaker.git --recursive
-git clone --branch rehook https://github.com/plus3it/pyppyn.git
-git clone --branch rehook https://github.com/plus3it/gravitybee.git
+git clone --branch rehook https://github.com/YakDriver/pyppyn.git
+git clone --branch rehook https://github.com/YakDriver/gravitybee.git
 cd watchmaker
 git checkout c55a519
 cd ..\pyppyn
